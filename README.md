@@ -1,1 +1,11 @@
-# Project
+You must add several elements and functionalities to web application. The functionalities are:
+1.	CSS and master page (Nazreen)
+2.	Menu items with images  (waie)
+3.	Menu selection and quantity (Naim)
+4.	Calculation of sales (Afiq)
+5.	Sales cart (waie)
+6.	All transaction data stored in database (waie)
+7.	Sales information and receipt (Nazreen)
+8.	User registration and login - customer and admin (naim)
+9.	Page authorization - customer and admin (Afiq)
+10.	Reporting of detail sales and executive summary of sales – admin (naz & naim)
