@@ -1,0 +1,52 @@
+﻿/* style.css */
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.banner {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    padding: 40px; /* Increase padding for larger white box */
+    max-width: 1400px; /* Increase max-width for larger white box */
+    margin: 40px auto; /* Increase margin for more space around the box */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-height: 800px; /* Set minimum height to make the box longer */
+}
+
+.auto-style1 {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 20px; /* Adjust padding for mobile */
+        margin: 20px; /* Adjust margin for mobile */
+        min-height: 600px; /* Adjust minimum height for mobile */
+    }
+
+    .banner {
+        height: auto;
+    }
+}
