@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="Project.User" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="Project.User" %>
 
 <!DOCTYPE html>
 
@@ -7,12 +7,14 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-  
+    <link href="Styles/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <img src="Images/banner.png" class="auto-style1" />
-        <div>
+        <header>
+            <img src="Images/banner.png" class="banner" alt="Banner" />
+        </header>
+        <div class="content">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
