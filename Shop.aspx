@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Shop.aspx.cs" Inherits="Project.Shop" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/User.Master" AutoEventWireup="true" CodeBehind="Shop.aspx.cs" Inherits="Project.Shop" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Styles/StyleSheet1.css" rel="stylesheet" />
@@ -48,7 +48,7 @@
         <p>
             Quantity:
             <asp:TextBox ID="txtQuantity" runat="server" TextMode="Number" Width="50px">1</asp:TextBox>
-            <asp:Button ID="btnAddProduct" runat="server" Text="Button" OnClick="btnAddProduct_Click" />
+            <asp:Button ID="btnAddProduct" runat="server" Text="Order" OnClick="btnAddProduct_Click" />
         </p>
         <p>
             <asp:Label ID="lblMessage1" runat="server" ></asp:Label>
